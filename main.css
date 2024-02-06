@@ -1,0 +1,437 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro",sans-serif;
+    /* border: 2px solid red; */
+}
+
+nav{
+    /* border: 2px solid; */
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+nav span img{
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+nav>ol{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    width: 600px;
+    list-style: none;
+    text-transform: capitalize;
+    height: 100px;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 58px;
+}
+nav>ol>li:first-child{
+    color: lightgray;
+}
+
+nav>ol>li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+#section1{
+    /* border: 2px solid; */
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    background-image: url("./assests/section1bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#section1 span {
+    /* border: 2px solid red; */
+    font-size: 45px;
+    color: #fff;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+}
+
+#section1 h1{
+    /* border: 2px solid; */
+    width: 40%;
+    height: 65px;
+    background-color: rgba(255,255,255,.6);
+    font-weight: 400;
+    font-size: 28px;
+    /* font-family: 'Poppins', sans-serif; */
+    margin-top: 7%;
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-left: 2%;
+    letter-spacing: 0.2em;
+}
+
+#section1 p{
+    /* border: 2px solid; */
+    width: 60%;
+    height: 75px;
+    background-color: rgba(255,255,255,.6);
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2%;
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-left: 2%;
+    letter-spacing: 1px;
+}
+
+#section2  {
+    /* border: 2px solid blue; */
+    position: absolute;
+    top: 115%;
+    margin-left: 18%;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#section2 h2{
+    /* border: 2px solid; */
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+#section2 p{
+    /* border: 2px solid; */
+    margin: 2%;
+    margin-left: 0%;
+    width: 101%;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #363636;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+#section3{
+    /* border: 2px solid; */
+    position: absolute;
+    top: 148%;
+    width: 100%;
+    height: 600px;
+    background-image: url("./assests/section3bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#section3 h1{
+    /* border: 2px solid; */
+    width: 53%;
+    height: 108px;
+    background-color: rgba(255,255,255,.6);
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 7%;
+    margin-left: 5%;
+    padding-top: 1%;
+    padding-left: 2%;
+    letter-spacing: 0.2em;
+    line-height: 1.3em;
+}
+
+#section4 h3{
+    /* border: 2px solid; */
+    width: 38%;
+    height: 50px;
+    background-color: rgba(255,255,255,.6);
+    font-weight: bold;
+    font-size: 18px;
+    /* font-family: 'Poppins', sans-serif; */
+    margin-top: 107%;
+    margin-left: 18%;
+    padding-top: 1%;
+    padding-left: 2%;
+    letter-spacing: 0.2em;
+    line-height: 1.3em;
+}
+
+#section4 p{
+    /* border: 2px solid; */
+    margin: 0%;
+    margin-left: 20%;
+    width: 70%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #363636;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+#section5{
+    /* border: 2px solid; */
+    position: absolute;
+    top: 270%;
+    width: 100%;
+    height: 600px;
+    background-image: url("./assests/section4bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#section5 h2{
+    /* border: 2px solid; */
+    width: 22%;
+    height: 78px;
+    background-color: rgba(255,255,255,.6);
+    font-weight: bold;
+    font-size: 39.2px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15%;
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-left: 2%;
+    letter-spacing: 0.179487em;
+    line-height: 1.3em;
+}
+
+#section6 h3{
+    /* border: 2px solid; */
+    width: 45%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 45%;
+    margin-left: 18%;
+    padding-top: 1%;
+    padding-left: 2%;
+    letter-spacing: 0.2em;
+    line-height: 1.3em;
+}
+
+#section6 p{
+    /* border: 2px solid; */
+    margin: 0%;
+    margin-left: 20%;
+    width: 70%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #363636;
+    font-family:  sans-serif;
+}
+
+#section7{
+    /* border: 2px solid; */
+    position: absolute;
+    top: 385%;
+    width: 100%;
+    height: 600px;
+    background-image: url("./assests/section7bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#section7 h2{
+    /* border: 2px solid; */
+    width: 28%;
+    height: 78px;
+    background-color: rgba(255,255,255,.6);
+    font-weight: bold;
+    font-size: 39.2px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 9%;
+    margin-left: 5%;
+    padding-top: 1%;
+    padding-left: 2%;
+    letter-spacing: 0.179487em;
+    line-height: 1.3em;
+}
+
+#sub-sec1 h3{
+    /* border: 2px solid; */
+    margin-top: 48%;
+    margin-left: 12%;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#sub-sec1 h3 span{
+    /* border: 2px solid; */
+    margin-top: 52%;
+    margin-left: 1%;
+    font-size: 1em;
+    font-weight: 600;
+    font-style: italic; 
+    line-height: 2.2em;   
+}
+
+#sub-sec1 p{
+    /* border: 2px solid; */
+    line-height: 1.5em;
+    margin-left: 12%;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+#sub-sec2 h3{
+    /* border: 2px solid; */
+    margin-top: 1%;
+    margin-left: 12%;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#sub-sec2 h3 span{
+    /* border: 2px solid; */
+    margin-top: 52%;
+    margin-left: 1%;
+    font-size: 1em;
+    font-weight: 600;
+    font-style: italic; 
+    line-height: 2.2em;   
+}
+
+#sub-sec2 p{
+    /* border: 2px solid; */
+    line-height: 1.5em;
+    margin-left: 12%;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+#sub-sec3 h3{
+    /* border: 2px solid; */
+    margin-top: 1%;
+    margin-left: 12%;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#sub-sec3 h3 span{
+    /* border: 2px solid; */
+    margin-top: 52%;
+    margin-left: 1%;
+    font-size: 1em;
+    font-weight: 600;
+    font-style: italic; 
+    line-height: 2.2em;   
+}
+
+#sub-sec3 p{
+    /* border: 2px solid; */
+    line-height: 1.5em;
+    margin-left: 12%;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+#section9{
+    /* border: 2px solid; */
+    position: absolute;
+    top: 525%;
+    width: 100%;
+    height: 600px;
+    background-image: url("./assests/section9bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#section9 h2{
+    /* border: 2px solid; */
+    width: 17%;
+    height: 78px;
+    background-color: rgba(255,255,255,.6);
+    font-weight: bold;
+    font-size: 39.2px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 9%;
+    margin-left: 5%;
+    padding-top: 1%;
+    padding-left: 2%;
+    letter-spacing: 0.179487em;
+    line-height: 1.3em;
+}
+
+#section10 ol {
+    /* border: 2px solid; */
+    width:  82% ;
+    height: 600px;
+    margin-top: 55%;
+    margin-left: 17%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    
+}
+
+#section10 ol li img{
+    /* border: 2px solid blue; */
+    width: 350px;
+    padding: 25px 20px;
+    margin: 5px;
+}
+
+#section10 ol li  p{
+    /* border: 2px solid; */
+    padding-left: 8%;
+    font-size: 12px;
+}
+
+footer{
+    border: 2px solid;
+    margin-top: 22%;
+    width: 100%;
+    height: 20vh;
+    background-color: #000;
+}
+
+footer p{
+    position: absolute;
+    top: 738%;
+    width: 58px;
+    height: 45px;
+    color: #000;
+    /* border: 2px solid; */
+    background-color:#fff ; 
+    border-radius: 100%;
+    padding-top: 5px;
+    padding-left: 16px;
+    margin-left: 48%;
+    padding-top: 2px;
+}
+
+footer p i{
+    /* border: 2PX solid; */
+    font-size: 20px;
+    padding-left: 3px;
+}
+
+footer ol {
+   display: flex;
+   list-style: none;
+   margin-left: 15%;
+}
+
+footer ol li {
+    background-color: #fff;  
+    border-radius: 100%; 
+    margin: 1%;
+    margin-top: 3%;
+    font-size: 21px;
+    padding: 5px;
+}
+
